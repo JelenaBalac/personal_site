@@ -1,0 +1,105 @@
+/****************************TAG SELECTOR***********************/
+body{margin:0;
+    font-family: 'Montserrat', sans-serif;
+
+    }
+h1{font-family: 'Sacramento', cursive;
+  margin:20px auto 0 auto;font-size: 5.625rem; color: #B7839C;
+}
+h2{font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;color: #D3A1B7; font-weight: normal; }
+
+h3{font-family: 'Montserrat', sans-serif;color: #B7839C;}
+h4{font-family: 'Montserrat', sans-serif; }
+h5{font-family: 'Montserrat', sans-serif;}
+h6{font-family: 'Montserrat', sans-serif;}
+div {text-align: center;}
+hr {color: #d3e0ea; margin-top: 80px; margin-bottom: 80px; width: 5%; border-width: 6px; border-style: none; border-top-style:dotted;}
+p {line-height: 1.5;}
+a:hover {color:#FFFFFF;}
+/****************************CLASS SELECTOR***********************/
+.top-container {background-color: #FBEEF2;}
+.top-cloud {position:absolute; top:50px; right:200px;width: 13%;}
+.bottom-cloud {position:absolute; left:230px; bottom:300px;margin-bottom: 60px; }
+.subtitle{font-weight: normal;}
+.bubble {position: fixed; left:1px; bottom:1px; width: 10%;opacity: 0.89;z-index: 2;}
+.bubble:hover{opacity: 1;}
+.wdsf-link {text-decoration: none; color: #B7839C;}
+.wdsf-link:hover {color:#9D5679;}
+.gallery-link {text-decoration: none; color: #DEB8CF;}
+.gallery-link:hover {color:#B26C8E;}
+.skill-row{width: 70%; margin: 100px auto 100px auto; text-align: left; line-height: 1.5;}
+.coding_gif{width:20%; float:left; margin-right: 30px;}
+.dancing {width:20%;float: right; margin-left: 30px; margin-bottom: 30px; position: relative; top: 35px;}
+.profile{width:35%; height: 35%; margin: 40px auto 0 auto;}
+.skills {padding-top: 15px;padding-bottom: 15px;}
+.skills1 {background-color: #FFFBF8;padding-top: 15px;padding-bottom: 15px;}
+.bottom-container {background-color: #C081A2;   padding-top: 50px;}
+.button{
+    margin: 30px auto 0 auto;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 15px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.2rem;
+   font-weight: 600;
+   padding: 20px;
+   padding-bottom: 32px;
+   background-color: #C081A2;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   height: 10px; width: 140px;
+}
+.button:hover {
+   transform: scale(1.05);
+   border: outset #FFFFFF 0;
+   background: #C081A2;
+   background-image: -webkit-linear-gradient(top, #9D5679, #C081A2);
+   background-image: -moz-linear-gradient(top, #9D5679, #C081A2);
+   background-image: -ms-linear-gradient(top, #9D5679, #C081A2);
+   background-image: -o-linear-gradient(top, #9D5679, #C081A2);
+   background-image: -webkit-gradient(to bottom, #9D5679, #C081A2);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   text-decoration: none;
+}
+.footer-link {text-decoration: none; color: #DEB8CF;}
+.copyright{color: white;font-size: 0.75rem; margin-bottom: 0px; margin-top:30px; padding-bottom:10px;}
+.dancing-gif {display: block; margin-left: auto; margin-right: auto; width: 200px; height: 350px;}
+.chess_gif{width:15%; float:left; margin-right: 30px;position:relative; top:10px;}
+.art {width:20%; float:right; margin-left: 30px;}
+.student_gif {width:13%; float:left; margin-right: 30px; position: relative; top:20px}
+.languages_gif {width:20%; float:left; margin-right: 30px; margin-bottom: 20px;position:relative; top: 20px;}
+.quote {font-style: italic; color:#C081A2; }
+ /****************************CLASS SELECTORS GALLERY*****************/
+
+.topgallery {background-color: #F1EDEF; padding: 20px; text-align:center; margin-bottom: 30px;}
+.middlegallery{padding: 50px; text-align: center;}
+.bottomgallery {background-color: #C081A2;   padding-top: 50px; margin-top: 60px;}
+.mygallery {font-size: 32px; color: #9D5679; font-weight: normal;}
+.philosopher {display:inline-block; opacity: 0.9; width: 18%; height: 250px;margin:25px;}
+.philosopher:hover{opacity:1;}
+.philosophy-gif {display:inline-block; opacity: 0.9; width: 18%; height: 250px;margin:25px;}
+ /****************************ID SELECTORS GALLERY*****************/
+#camus {display:inline-block; width: 625px; height: 322.219px;margin: 25px; margin-left: 2;opacity: 0.9;}
+#scarywoman1 {display:inline-block; width: 300px; height: 400px; margin:25px;opacity: 0.9;}
+#scarywoman2 {display:inline-block; width: 300px; height: 400px;margin:25px;opacity: 0.9;}
+#splitface {display:inline-block; width: 300px; height: 400px; margin:25px;opacity: 0.9;}
+#pixelface {display:inline-block; width: 350px; height: 322.219px;margin:25px; margin-left: 0;opacity: 0.9;}
+
+
+#camus:hover{opacity:1;}
+#scarywoman1:hover {opacity:1;}
+#scarywoman2:hover{opacity:1;}
+#splitface:hover{opacity:1;}
+#pixelface:hover{opacity:1;}
+
+/****************************CLASS SELECTORS DANCE*****************/
+.dance-link {text-decoration: none; color: #DEB8CF;}
+.dance-link:hover {color:#B26C8E;}
+.dance-img {display: inline-block; margin: 30px; width: 33%; height: 577px;}
